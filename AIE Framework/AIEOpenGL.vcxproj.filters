@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="BaseCode">
+      <UniqueIdentifier>{db6e1ed1-d768-461b-a65c-9914479221f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphs and Ai">
+      <UniqueIdentifier>{7bd394c1-953a-4e77-b005-201b92388d5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphs and Ai\Agents">
+      <UniqueIdentifier>{7798d7df-cdb3-43da-8d84-bac5ef14ee02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphs and Ai\Graphs">
+      <UniqueIdentifier>{aa98c0ee-b0d0-4c32-a057-054099c27329}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphs and Ai\Graphs\GraphNodes">
+      <UniqueIdentifier>{1d0c1bbc-1ab1-4899-8ac7-a3dda85a72af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphs and Ai\Graphs\GraphEdges">
+      <UniqueIdentifier>{eed43637-0995-49bb-82c5-606f65ac7de4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Collision and Ents">
+      <UniqueIdentifier>{89335a62-2682-462f-a9ac-8eb441119cdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Collision and Ents\Collision">
+      <UniqueIdentifier>{0d0a8308-d96b-489a-b332-70eced77816b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Collision and Ents\EntityManager">
+      <UniqueIdentifier>{d930a331-504b-4290-ac10-718db46438bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Polygon">
+      <UniqueIdentifier>{f20a3a7e-530c-43e0-8951-9956574a8046}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{70932520-5389-4c8e-9468-c1ce21a855e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphs and Ai\Behaviour Tree">
+      <UniqueIdentifier>{b8ed799d-c567-4c3f-95b0-831f8ffc16ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphs and Ai\Agents\Objects">
+      <UniqueIdentifier>{b0fa4260-7f42-44bb-b171-d03e5a987274}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphs and Ai\Behaviour Tree\Leaf Nodes">
+      <UniqueIdentifier>{601f771a-11d8-402b-915a-0fe2056eef45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphs and Ai\Behaviour Tree\Composite Nodes">
+      <UniqueIdentifier>{98721e27-367e-4c10-9344-eecd6dbd87ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphs and Ai\Behaviour Tree\Composite Nodes\Base">
+      <UniqueIdentifier>{281a93e4-6237-4a02-b511-a3524d52b1e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphs and Ai\Behaviour Tree\Decorator">
+      <UniqueIdentifier>{268d4376-6409-466a-8c75-d0d26d93061c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\BaseApplication.cpp">
+      <Filter>BaseCode</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gl_core_4_4.c">
+      <Filter>BaseCode</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SpriteBatch.cpp">
+      <Filter>BaseCode</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Texture.cpp">
+      <Filter>BaseCode</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Application2D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Font.cpp">
+      <Filter>BaseCode</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EntityManager.cpp">
+      <Filter>Collision and Ents\EntityManager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BaseEntity.cpp">
+      <Filter>Collision and Ents\EntityManager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Agent.cpp">
+      <Filter>Graphs and Ai\Agents</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AABBCollider.cpp">
+      <Filter>Collision and Ents\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Polygon.cpp">
+      <Filter>Polygon</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Graph.cpp">
+      <Filter>Graphs and Ai\Graphs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GraphNode.cpp">
+      <Filter>Graphs and Ai\Graphs\GraphNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GraphEdge.cpp">
+      <Filter>Graphs and Ai\Graphs\GraphEdges</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Input.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Behaviour.cpp">
+      <Filter>Graphs and Ai\Behaviour Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Ball.cpp">
+      <Filter>Graphs and Ai\Agents\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Selector.cpp">
+      <Filter>Graphs and Ai\Behaviour Tree\Composite Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Sequence.cpp">
+      <Filter>Graphs and Ai\Behaviour Tree\Composite Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Composite.cpp">
+      <Filter>Graphs and Ai\Behaviour Tree\Composite Nodes\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WalkLeaf.cpp">
+      <Filter>Graphs and Ai\Behaviour Tree\Leaf Nodes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\gl_core_4_4.h">
+      <Filter>BaseCode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\BaseApplication.h">
+      <Filter>BaseCode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SpriteBatch.h">
+      <Filter>BaseCode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Texture.h">
+      <Filter>BaseCode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Application2D.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Font.h">
+      <Filter>BaseCode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\EntityManager.h">
+      <Filter>Collision and Ents\EntityManager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\BaseEntity.h">
+      <Filter>Collision and Ents\EntityManager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Agent.h">
+      <Filter>Graphs and Ai\Agents</Filter>
+    </ClInclude>
+    <ClInclude Include="src\AABBCollider.h">
+      <Filter>Collision and Ents\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Polygon.h">
+      <Filter>Polygon</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Graph.h">
+      <Filter>Graphs and Ai\Graphs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GraphNode.h">
+      <Filter>Graphs and Ai\Graphs\GraphNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GraphEdge.h">
+      <Filter>Graphs and Ai\Graphs\GraphEdges</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Input.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Behaviour.h">
+      <Filter>Graphs and Ai\Behaviour Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Ball.h">
+      <Filter>Graphs and Ai\Agents\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Selector.h">
+      <Filter>Graphs and Ai\Behaviour Tree\Composite Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Sequence.h">
+      <Filter>Graphs and Ai\Behaviour Tree\Composite Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Composite.h">
+      <Filter>Graphs and Ai\Behaviour Tree\Composite Nodes\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="src\WalkLeaf.h">
+      <Filter>Graphs and Ai\Behaviour Tree\Leaf Nodes</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,7 @@
+﻿  Vector2.cpp
+c:\users\james.creaton\desktop\aie framework\mathlib\vector2.h(57): warning C4521: 'Vector2': multiple copy constructors specified
+c:\users\james.creaton\desktop\aie framework\mathlib\vector2.cpp(98): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\users\james.creaton\desktop\aie framework\mathlib\vector2.cpp(137): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\users\james.creaton\desktop\aie framework\mathlib\vector2.cpp(145): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\users\james.creaton\desktop\aie framework\mathlib\vector2.cpp(151): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  MathLib.vcxproj -> C:\Users\James.Creaton\Desktop\AIE Framework\Debug\MathLib.lib
