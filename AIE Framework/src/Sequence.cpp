@@ -11,7 +11,9 @@ Sequence::~Sequence()
 Sequence::Status Sequence::Execute(Agent * a_agent)
 {
 
-	child = pendingChild;
+	//Need to find a new to switch to the next child if one fails
+
+	/*child = pendingChild;
 	pendingChild = nullptr;
 
 	if (child == nullptr)
@@ -28,15 +30,14 @@ Sequence::Status Sequence::Execute(Agent * a_agent)
 		}
 		if (result == BT_FAILURE)
 		{
-			child = next child;
+		//	child = next child;
 		}
 		if (result == BT_RUNNING)
 		{
 			pendingChild = child;
 			return BT_RUNNING;
 		}
-	}
-
+	}*/
 
 	//Iterate through all children in childBehaviours
 	auto iter = childBehaviours.begin();
@@ -54,4 +55,5 @@ Sequence::Status Sequence::Execute(Agent * a_agent)
 		
 	}
 
+	return Status::BT_SUCCESS;
 }

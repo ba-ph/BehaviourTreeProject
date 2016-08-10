@@ -1,7 +1,20 @@
-﻿  Vector2.cpp
-c:\users\james.creaton\desktop\aie framework\mathlib\vector2.h(57): warning C4521: 'Vector2': multiple copy constructors specified
-c:\users\james.creaton\desktop\aie framework\mathlib\vector2.cpp(98): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
-c:\users\james.creaton\desktop\aie framework\mathlib\vector2.cpp(137): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
-c:\users\james.creaton\desktop\aie framework\mathlib\vector2.cpp(145): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
-c:\users\james.creaton\desktop\aie framework\mathlib\vector2.cpp(151): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
-  MathLib.vcxproj -> C:\Users\James.Creaton\Desktop\AIE Framework\Debug\MathLib.lib
+﻿  Matrix2.cpp
+c:\users\james\desktop\aie framework\mathlib\vector2.h(57): warning C4521: 'Vector2': multiple copy constructors specified
+c:\users\james\desktop\aie framework\mathlib\matrix2.cpp(35): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\james\desktop\aie framework\mathlib\matrix2.cpp(36): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\james\desktop\aie framework\mathlib\matrix2.cpp(37): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\james\desktop\aie framework\mathlib\matrix2.cpp(38): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  Generating Code...
+  Compiling...
+  Vector2.cpp
+c:\users\james\desktop\aie framework\mathlib\vector2.h(57): warning C4521: 'Vector2': multiple copy constructors specified
+c:\users\james\desktop\aie framework\mathlib\vector2.cpp(98): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\users\james\desktop\aie framework\mathlib\vector2.cpp(137): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\users\james\desktop\aie framework\mathlib\vector2.cpp(145): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\users\james\desktop\aie framework\mathlib\vector2.cpp(151): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  Generating Code...
+  Skipping... (no relevant changes detected)
+  Transform.cpp
+  Matrix4.cpp
+  Matrix3.cpp
+  MathLib.vcxproj -> C:\Users\james\Desktop\AIE Framework\Debug\MathLib.lib

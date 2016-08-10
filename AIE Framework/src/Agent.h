@@ -13,18 +13,12 @@ public:
 	~Agent();
 
 	void Update(float deltaTime);
-
-	//Possibly not needed
-	/*void UpdateTarget(Vector2 a_newTargetPos);
-	void UpdateTarget(Agent* a_agent);*/
+	void Draw(SpriteBatch* a_spritebatch);
 
 	//Set/Get Current Target
 	void SetTarget(Vector2 a_newTargetPos);
 	void SetTarget(BaseEntity* a_targetEnt);
 	Vector2 GetTarget();
-
-	//Add a behaviour to the rootNode
-//	void AddBehaviour(Behaviour* a_newBehaviour);
 
 	//set bt tree
 	void SetBTRootNode(Behaviour* a_bTRootNode);

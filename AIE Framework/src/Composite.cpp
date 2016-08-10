@@ -22,8 +22,6 @@ Behaviour::Status Composite::Execute(Agent * a_agent)
 		}
 	}*/
 
-
-
 	return Status::BT_SUCCESS;
 }
 

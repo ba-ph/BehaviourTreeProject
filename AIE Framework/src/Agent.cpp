@@ -21,34 +21,36 @@ void Agent::Update(float deltaTime)
 	if (m_behaviourTree != nullptr)
 		m_behaviourTree->Execute(this);
 
-	//seek to path
-	if (m_path.empty() == false) {
-		auto pathBegin = m_path.begin();
-		if ((m_position - *(pathBegin)).SqaureMagnitude() < 1280.0f) {
-			m_path.erase(pathBegin, pathBegin);
-		}
-
-		//calculate force vector
-		Vector2 vecBetweenAgentTarget = m_targetPos - *m_path.begin();
-		Vector2 force = vecBetweenAgentTarget.Normalized() * m_maxVelocity;
-
-		//Add the force
-		AddForce(force - m_velocity);
-	}
-	
-
 	BaseEntity::Update(deltaTime);
 }
 
-/*void Agent::UpdateTarget(Vector2 a_newTargetPos)
+void Agent::Draw(SpriteBatch * a_spritebatch)
 {
-	m_targetPos = a_newTargetPos;
+	//Draw the path
+	if (m_path.size() > 2)
+	{
+		auto currPos = m_path.begin();
+		for (; currPos != m_path.end(); currPos++)
+		{
+			//Set nextPos to currPos + 1
+			auto nextPos = currPos;
+			nextPos++;
+
+			//Check nextPos isn't end of our path
+			if (nextPos == m_path.end())
+				break;
+
+			Vector2 p1 = (*currPos);
+			Vector2 p2 = (*nextPos);
+			a_spritebatch->setSpriteColor(1, 0.0f, 0.0f, 5.0f);
+			a_spritebatch->drawLine(p1.x, p1.y, p2.x, p2.y, 2.0f);
+		}
+	}
+
+
+	BaseEntity::Draw(a_spritebatch);
 }
 
-void Agent::UpdateTarget(Agent * a_agent)
-{
-	m_targetPos = a_agent->GetPosition();
-}*/
 
 Vector2 Agent::GetTarget()
 {
@@ -64,11 +66,6 @@ void Agent::SetTarget(BaseEntity * a_targetEnt)
 {
 	m_targetPos = a_targetEnt->GetPosition();
 }
-
-/* Agent::AddBehaviour(Behaviour* a_newBehaviour)
-{
-	m_behaviourTree->;
-}*/
 
 void Agent::SetBTRootNode(Behaviour * a_bTRootNode)
 {

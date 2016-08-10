@@ -14,9 +14,13 @@ public:
 	// if Success or Failure, processing ends and result returned to parent
 	Behaviour::Status Execute(Agent* a_agent);
 
+	void ClearPath(Agent* a_agent);
+
+
 private:
 	//Not really needed but helpful if testing with other entities
 	Agent* m_characterReference;
-
 	Vector2 m_destination;
+
+	bool PathFinished;
 };

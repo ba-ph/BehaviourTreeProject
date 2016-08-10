@@ -52,8 +52,8 @@ public:
 	//Distance between two float sets using square root
 	float Vector2::Distance(float a_pos1X, float a_pos1Y, float a_pos2X, float a_pos2Y);
 	//Distance between two vectors not using square root
-	float Vector2::SqrDistance(Vector2 a_pos1, Vector2 a_pos2);
 	float Vector2::SqrDistance(Vector2& rhs);
+	float Vector2::SqrDistance(Vector2 a_pos1, Vector2 a_pos2);
 };
 
 Vector2 operator*(float a_lhs, const Vector2& rhs);
